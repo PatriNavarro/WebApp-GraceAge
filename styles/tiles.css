@@ -1,0 +1,37 @@
+
+.flex-center{
+    background-color: white;
+    box-shadow: 0 5px 3px grey;
+    text-align: center;
+    height:100%;
+    width:100%;
+    border-radius: 9px;
+    line-height: 200%;
+
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    color: #585858;
+
+    /*To align the content in the middle of the tile*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /*To avoid the text from flowing right to the border of the tile*/
+    padding: 5%;
+}
+
+.panel{
+    border-radius: 9px;
+    height:100%;
+    width:100%;
+}
+
+img{
+    /*So that when resized it doesnt go out of the tile*/
+    max-height: 60%;
+    max-width: 70%;
+    /*To center the image*/
+    margin: 0 auto;
+}

@@ -1,0 +1,68 @@
+#notes-table{
+   width: 100%;         /*content-row (in general-page) is the parent of this, and his height is 100% */
+   margin-top: 2%;
+   margin-bottom: 2%;
+   padding: 1%;
+}
+
+#head-row{
+    width: 100%;
+}
+
+#column-nav{
+    padding-left: 2.5%;
+}
+
+#column-note{
+    background-color: white;
+    border-radius: 9px;
+    padding-left: 3%;
+    overflow-y: scroll;
+    box-shadow: 0px 5px 3px grey;
+}
+
+.every-note-row{             /*staat in note.js*/
+    border-bottom: 1px solid gray;
+    padding: 2%;
+}
+
+
+.last-row{
+    padding-top: 1%;
+}
+
+.delete-button, .edit-button{
+    width: 100%;
+}
+
+.small-rows{
+    padding-top: 2%;
+}
+
+#no-notes-row {
+    padding: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    
+    #head-row{
+        padding: 0%;
+        margin: 0%;
+    }
+    .row1, .row2{
+        padding: 0%;
+        padding-bottom: 2%;
+        margin: 0%;
+    }
+    
+    #column-note, #column-nav{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    #column-note{
+        padding: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}

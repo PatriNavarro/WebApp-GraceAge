@@ -1,0 +1,132 @@
+:root {
+    --light-color:#7cba55;
+    --dark-color:#3c6428;
+    --title-font: Roboto,sans-serif;
+}
+
+body{
+    background-color: #EDEDED;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*NAVIGATION PART_______________________________________________________________________________*/
+#nav-container{
+    width: 100vw;
+    background-color: var(--light-color);
+    padding:0;
+    box-shadow: 0px 5px 3px grey;
+}
+#start-button{
+    background-color: var(--dark-color);
+    font-family: var(--title-font);
+    /*border-color: var(--dark-color);*/    /*If i uncomment this, all these css parameters are not implemented...*/
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1.7px;
+    border-radius: 9px;
+}
+
+#title-column{
+    font-family: var(--title-font);
+    color: white;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#help_button, #logout_button{
+    font-family: var(--title-font);
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1.7px;
+}
+
+#help-column{
+    background-color: var(--dark-color);
+    border-radius: 9px;
+    text-align: center;
+    padding: 0%;
+    height: 20%;
+}
+
+#help-left{
+    height:20%;
+    font-size: 15px;
+    padding: 1%;
+    border-right: 1px solid white;
+    text-align: center;
+    width: 50%;
+}
+
+#help-right{
+    height:20%;
+    font-size: 15px;
+    padding: 1%;
+    border-left: 1px solid white;
+    text-align: center;
+    width: 50%;
+}
+
+#logout-logo, #help-logo
+{
+    height: 45px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+/*CONTENT PART_______________________________________________________________________________*/
+#content-row {
+     /* The row which contains the content must have the complete width of the screen*/
+    margin-left: auto; margin-right: auto;      /*try to center the content row*/
+    width: 100vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /*Make the row cover the available height in the screen*/
+    flex-grow:1;
+}
+
+/* removes the blue line when hovering */
+a:hover,
+a:active,
+a:focus{
+    text-decoration: none;
+}
+
+.daily-calendar-head {
+    background-color: var(--light-color) !important;
+}
+
+.flex-center:hover,
+.flex-center:active,
+.flex-center:focus{
+    color:white !important;
+    box-shadow: 0 1px 0 0 grey;
+    transform: translateY(2px);
+    background-color: #7cba55 !important;
+}
+
+@media screen and (min-width: 600px){
+    #hamburger{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #help-left, #help-right{
+        display: none;
+    }
+    
+    #hamburger{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+}
+
+
+

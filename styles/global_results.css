@@ -1,0 +1,27 @@
+:root {
+    --light-color:#53C0CC;
+    --dark-color:#1F4F58;
+    --title-font: Roboto,sans-serif;
+}
+
+#jumbotron-area{
+    padding:2.5%;
+}
+.button {
+    font-family: var(--title-font);
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1.7px;
+    align-content: center;
+    background-color: var(--light-color);
+    height: 100%;
+    border-radius: 9px;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+#button_row{
+    padding-top: 2%;
+    margin: 0 auto;
+}
+

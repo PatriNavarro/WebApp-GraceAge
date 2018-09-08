@@ -1,0 +1,28 @@
+.col-sm-10.page-title {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.col-xs-8.page-title {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-weight: 200 !important;
+    font-size: 20px !important;
+}
+.nav-item a{
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+.nav-item-selected a{
+    background-color: rgba(2, 52, 138, 0.6) !important;
+}
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+#upload-magazine-form{
+    margin-left: 2%;
+}
+
+#magazine-upload-warning{
+    color: red;
+}

@@ -1,0 +1,41 @@
+:root {
+    --light-color:#53C0CC;
+    --dark-color:#1F4F58;
+    --title-font: Roboto,sans-serif;
+    --title-text-font: 'Lato Black', san-serif;
+    --normal-text-font:'Lato',sans-serif;
+}
+
+#jumbotron-area{
+    padding:2.5%;
+}
+.button {
+    font-family: var(--title-font);
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1.7px;
+    align-content: center;
+    background-color: var(--light-color);
+    height: 100%;
+    border-radius: 9px;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+#button_row{
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
+.table-responsive{font-family: var(--normal-text-font)}
+#red{
+    background-color: rgba(187, 0, 8, 0.4)
+}
+#yellow{
+    background-color: rgba(255, 233, 25, 0.4)
+}
+#green{
+    background-color: rgba(26, 193, 0, 0.4)
+}
+
+td{width: auto}
